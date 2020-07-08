@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    background-color: #2a2a2a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #00adb5;
+    font-family: 'Raleway', Arial, Helvetica;
+}
+.img-wrapper {
+    width: 100%;
+    height: 415px;
+    overflow: hidden;
+    filter: drop-shadow(0 0 0.8rem rgb(0, 0, 0));
+    border-radius: 15px;
+}
+.img {
+    width: 100%;
+}  
+.container {
+    width: 70%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+h1 {
+    font-size: 48px;
+}
+p {
+    font-size: 32px;
+}
+td {
+    width: 450px;
+    padding: 0px 8px;
+    transition: 0.5s;
+}
+td:hover {
+    width: 500px;
+}
+a {
+    color: #eeeeee;
+    text-decoration-line: none;
+    font-size: 24px;
+    font-weight: bold;
+}
